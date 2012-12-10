@@ -391,7 +391,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(?&lt;!\.)(this|extends)(?!\s*[:=])\b</string>
+			<string>\b(?&lt;!\.)(this|extends|me)(?!\s*[:=])\b</string>
 			<key>name</key>
 			<string>variable.language.kal</string>
 		</dict>
@@ -420,7 +420,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(class\b)\s+(@?[a-zA-Z\$_][\w\.]*)?(?:\s+(extends)\s+(@?[a-zA-Z\$\._][\w\.]*))?</string>
+			<string>(class\b)\s+(@?[a-zA-Z\$_][\w\.]*)?(?:\s+(inherits\s+from)\s+(@?[a-zA-Z\$\._][\w\.]*))?</string>
 			<key>name</key>
 			<string>meta.class.kal</string>
 		</dict>
