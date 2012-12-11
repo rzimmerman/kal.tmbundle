@@ -246,7 +246,7 @@
 				)(?!\s*:)\b
 			</string>
 			<key>name</key>
-			<string>support.control.kal</string>
+			<string>support.callback.kal</string>
 		</dict>
 		<dict>
 			<key>match</key>
