@@ -278,7 +278,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>([a-zA-Z\$_](\w|\$|\.)*\s*(?!\::)((:)|(=)(?!&gt;))(?!(\s*\(.*\))?\s*([=-]&gt;)))</string>
+			<string>([a-zA-Z\$_](\w|\$|\.)*\s*(?!\::)((:)|([\+\-\*\/]?=)(?!&gt;))(?!(\s*\(.*\))?\s*([=-]&gt;)))</string>
 			<key>name</key>
 			<string>variable.assignment.kal</string>
 		</dict>
