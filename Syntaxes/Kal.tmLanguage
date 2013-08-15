@@ -221,7 +221,7 @@
 			<key>match</key>
 			<string>(?x)
 				\b(?&lt;![\.\$])(
-					break|by|catch|continue|else|finally|(!(wait)\s*for)|in|for|of|if|return|switch|
+					break|by|catch|continue|else|finally|(!(wait)\s*for)|(?&lt;=for)\s+parallel|(?&lt;=for)\s+series|in|for|of|if|return|switch|
 					then|throw|try|unless|except|when|otherwise|while|until|loop|do|(?&lt;=for)\s+own
 				)(?!\s*:)\b
 			</string>
@@ -242,7 +242,7 @@
 			<key>match</key>
 			<string>(?x)
 				\b(?&lt;![\.\$])(
-					from|wait\s+for|fail\s+with|run\s+in\s+(parallel|series)
+					from|(safe\s+)?wait\s+for|fail\s+with
 				)(?!\s*:)\b
 			</string>
 			<key>name</key>
@@ -443,7 +443,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(console)\b</string>
+			<string>\b(console)\b|\b(print)\b</string>
 			<key>name</key>
 			<string>entity.name.type.object.kal</string>
 		</dict>
