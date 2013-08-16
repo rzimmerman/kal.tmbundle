@@ -1,6 +1,6 @@
 Kal.tmbundle
 ============
-A TextMate Bundle for the Kal programming language. Still very much a work in progress, so patches are welecome!
+A TextMate Bundle for the Kal programming language. Still very much a work in progress, so patches are welcome!
 
 Installation
 ============
